@@ -29,8 +29,8 @@ Use Adaptive thresholding to segment the image.
 Use Otsu's method to segment the image and display the results.
 
 # Program
-## Developed By : NITHYAA SRI S S
-## Register Number : 212222230100
+## Developed By : shaiklahir
+## Register Number :212224240148
 
 # Load the necessary packages
 ```
@@ -49,7 +49,11 @@ plt.title('Grayscale Image')
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/ca97f0fc-9d7d-4ace-9f27-edf4519f44f9)
+***original image***
+![image](https://github.com/user-attachments/assets/2a443b9f-e088-47ba-88ba-33a82fa1229a)
+
+***grayscale***
+![image](https://github.com/user-attachments/assets/50e40bb3-a31a-4798-b76e-dcf96f9828f3)
 
 # Use Global thresholding to segment the image
 ```
@@ -61,7 +65,8 @@ plt.title('Global Thresholding (v=127)')
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/6657658f-e992-4731-b602-82c70866c37f)
+***Global thresholding***
+![image](https://github.com/user-attachments/assets/480e112f-f0b5-4f38-a508-ee4426873b40)
 
 
 # Use Adaptive thresholding to segment the image
@@ -76,7 +81,8 @@ plt.title('Adaptive Gaussian Thresholding')
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/6b03e56a-6a3c-4884-bb63-71d5ed18ada4)
+***Adaptive thresholding***
+![image](https://github.com/user-attachments/assets/e5f1a4b5-1d2b-45f9-b2b5-cb60a63eff8c)
 
 # Use Otsu's method to segment the image 
 ```
@@ -89,7 +95,8 @@ plt.title("Otsu's Thresholding")
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/b62e211b-8d24-490a-8508-b4ebeb2c2390)
+***Otsu's thresholding***
+![image](https://github.com/user-attachments/assets/a6247a71-6c80-4f9e-8b28-145bb325d43f)
 
 
 ## Result
